@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+video{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 1;
+}
+
+.front{
+    /* background-color: black;
+    opacity: 0.5; */
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 2;
+    background: radial-gradient(rgba(110, 110, 110, 0.3),rgba(0, 0, 0, 0.8)); 
+
+}
